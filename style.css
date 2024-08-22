@@ -6,7 +6,36 @@
   }
   body {
     background-color: #f7f9fd;
+    font-family: Arial, sans-serif;
   }
+
+  .navbar {
+    background-color: #587ef4;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    img{
+      border-radius: 50%;
+    }
+  }
+
+  .navbar-brand {
+      display: flex;
+      align-items: center;
+  }
+
+  .brand-logo {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+  }
+
+  .brand-name {
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+  }
+
   .wrapper {
     width: 90%;
     font-size: 16px;
